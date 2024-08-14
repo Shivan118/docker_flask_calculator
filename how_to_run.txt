@@ -1,0 +1,9 @@
+1. Build the Docker Image
+docker build -t flask-calculator .
+
+2. Run the Docker Container
+docker run -p 5000:5000 flask-calculator
+
+
+************************** How to run in VS CODE *************************
+python app.py
